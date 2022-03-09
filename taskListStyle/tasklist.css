@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.box {
+  width: 100%;
+  height: 50vh;
+}
+
+.box1 {
+  position: relative;
+}
+
+.box2 {
+  width: 80%;
+  margin: 50px auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.middle {
+  width: 94%;
+  height: 92vh;
+  background-color: black;
+  outline: 1px solid white;
+  border-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blocks {
+  width: 47%;
+  height: 85vh;
+  background-color: white;
+}
+
+.checkboxTask {
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.task {
+  border-radius: 10px 0 0 10px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.new {
+  margin-left: 5px;
+  border-radius: 0 10px 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 20px;
+}
+
+.textTask {
+  margin: 10px 0;
+  width: 215px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+
+.textTask:focus {
+  outline: none;
+}
+
+.buttonAdd {
+  display: block;
+  margin: auto;
+  height: 35px;
+  width: 70px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+}
+
+.letter {
+  color: #f53e3e;
+}
+
+.box3 {
+  background-color: black;
+}
+
+.warning1, .warning2 {
+  display: none;
+  width: 55vw;
+  height: 60px;
+  padding: 10px 19px;
+  background-color: lightsalmon;
+  color: #7e2e0f;
+  position: absolute;
+  right: 139px;
+  top: 56px;
+}
+
+.textWarn, .textWarn2 {
+  margin-top: 3px;
+}
+
+.uil-times {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+}
+/*# sourceMappingURL=tasklist.css.map */

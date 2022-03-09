@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="taskListStyle/tasklist.css">
+    <title>taskList</title>
+</head>
+<body> 
+    <div class=" box box1"></div>
+    <div class="box2">
+        <img src="image/pensil.png" alt="" style="height: 84vh;">
+        <div class="middle"> 
+            <div class="blocks task" id="blockBox">
+                <form name="formList">
+                    <h3 class="letter">Список завдань</h3>
+                    <label for="checkbox1" class="checkboxTask">
+                        <input type="checkbox" name="checks" id="checkbox1"> 
+                        <span> HTML5</span> 
+                    </label>
+                    <label for="checkbox2" class="checkboxTask">
+                        <input type="checkbox" name="checks" id="checkbox2"> 
+                        <span> CSS3</span> 
+                    </label>
+                    <label for="checkbox3" class="checkboxTask">
+                        <input type="checkbox" name="checks" id="checkbox3"> 
+                        <span> SASS/SCSS</span> 
+                    </label>
+                    <label for="checkbox4" class="checkboxTask">
+                        <input type="checkbox" name="checks" id="checkbox4"> 
+                        <span> Bootstrap</span> 
+                    </label>
+                </form>
+            </div>
+            <div class="blocks new">
+                <h3 class="letter">Додати нове завдання</h3>
+                <form name="formTask">
+                    <input type="text" class="textTask" name="taskText">
+                    <div class="warning1" id="blockWarning1">
+                        <h4>Попередження!</h4>
+                        <p class="textWarn">Пусте поле не можна добавити.</p>
+                        <i class="uil-times" id="close"></i>
+                    </div> 
+                    <div class="warning2" id="blockWarning2">
+                        <h4>Попередження!</h4>
+                        <p class="textWarn2">Останній таск зі списку Ви не можете видалити.</p>
+                        <i class="uil-times" id="close2"></i>
+                    </div> 
+                    <button type="button" onclick="checkboxAdd()" class="buttonAdd"> додати</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="box box3"></div>
+
+
+    <script src="js/taskList.js"></script>
+</body>
+</html>
